@@ -1,0 +1,25 @@
+{
+ "capabilities":
+ [
+    {
+  	    "browserName" : "Android",
+        "platformName": "Android",
+        "appium:deviceName": "KD-43X8000G",
+        "appium:automationName": "UiAutomator2",
+        "appium:udid": "192.168.53.49:5555",
+        "appium:platformVersion": "9",
+        "appium:appPackage": "com.jio.media.stb.ondemand",
+        "appium:appActivity": "com.v18.voot.ui.JVHomeActivity",
+	    "systemPort" : "8202"
+     }
+ ],
+ "proxy": "org.openqa.grid.selenium.proxy.DefaultRemoteProxy",
+ "maxSession": 30,
+ "cleanUpCycle" : 2000,
+ "timeout" : 30000,
+ "register": true,
+ "registerCycle": 5000,
+ "hubPort" : 4444,
+ "hubHost": "localhost",
+ "hubProtocol" : "http"
+}

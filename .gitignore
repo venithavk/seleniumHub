@@ -1,0 +1,7 @@
+allure-results
+allure-report
+node-modules
+package-lock.json
+package.json
+wdio-appium.log
+.env
